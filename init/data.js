@@ -348,10 +348,5 @@ const sampleListings = [
     country: "Costa Rica",
   },
 ];
-//solved the error 
-const modifiedListings = sampleListings.map(listing => ({
-  ...listing,
-  image: listing.image.url
-}));
 
-module.exports = { data: modifiedListings };
+module.exports = { data: sampleListings };
